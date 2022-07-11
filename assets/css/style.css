@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hotpink;
+    padding: 50px;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+#choices {
+    display: flex;
+    flex-direction: column;
+}
