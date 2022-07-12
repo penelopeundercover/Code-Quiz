@@ -4,6 +4,10 @@ var questionContainerElement = document.getElementById("questions-container");
 var choicesContainerElement = document.getElementById("choices");
 var startScreen = document.getElementById("start-screen");
 var timerElement = document.getElementById("timer");
+//put following 3 in HTML
+var submitScore 
+var playerInput = document.getElementById("user-name");
+var scoreSubmitButton
 var timeRemaining = 120;
 var currentQuestion = 0;
 
@@ -58,6 +62,7 @@ function renderAnswers() {
     })
     console.log(choicesToRender)
 }
+
 
 //Check Answers
 function checkAnswers() {
