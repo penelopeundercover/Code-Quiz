@@ -1,10 +1,10 @@
 //Create the score object
 score: {
-    numCorrect: 0,
-    playerName: "",
+    numCorrect = 0,
+    playerName = "",
 }
 
-getPlayerName: function() {
+getPlayerName = function() {
     return this.playerName;
 }
 

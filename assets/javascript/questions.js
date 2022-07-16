@@ -1,9 +1,9 @@
 //This variable is an array with objects in it. Choices is an array inside of an object.
 var questions = [
     {
-        questionText: "What does DOM stand for?",
-        choices: ["Don't over-masticate.", "Document Ostrich Model", "Document Object Model", "District of Menses"],
-        answer: "Document Object Model"
+        questionText: "Which of the following mutator methods adds something to the beginning of an array?",
+        choices: ["splice()", "unshift()", "pop()", "shift()"],
+        answer: "unshift()"
     },
 
     {
@@ -13,9 +13,9 @@ var questions = [
     },
 
     {
-        questionText: "Which of the following mutator methods adds something to the beginning of an array?",
-        choices: ["splice()", "unshift()", "pop()", "shift()"],
-        answer: "unshift()"
+        questionText: "What does DOM stand for?",
+        choices: ["Don't over-masticate.", "Document Ostrich Model", "Document Object Model", "District of Menses"],
+        answer: "Document Object Model"
     },
 
     {
